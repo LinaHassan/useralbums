@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="continer">
+      <i class="material-icons" style="font-size: 36px">camera_alt</i>
+
+      <form class="form" id="myform">
+        <h1>LOG IN</h1>
+        <input
+          name="email"
+          type="email"
+          id="email"
+          placeholder="Enter Your Email"
+          required
+        />
+        <button id="btn" type="submit">LOG IN</button>
+        <p style="color: red" calss="myerror" id="error"></p>
+      </form>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
